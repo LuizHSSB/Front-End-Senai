@@ -1,7 +1,7 @@
 Algoritmo "brasileiras"
-//Disciplina: [Linguagem e LÛgica de ProgramaÁ„o]
+//Disciplina: [Linguagem e L√≥gica de Programa√ß√£o]
 //Professor: Victor Santos Rohod
-//DescriÁ„o: Lojas Brasileiras LTDA
+//Descri√ß√£o: Lojas Brasileiras LTDA
 //Autor(a): Luiz Henrique Maciel de Oliveira
 //Data atual: 26/02/2024
 
@@ -26,7 +26,7 @@ FimProcedimento
 
   //FimProcedimento acrescentarValor
 
-  //InicioProcedimento Cat·logo
+  //InicioProcedimento Cat√°logo
 
 Procedimento mostrarCatalogo()
 
@@ -37,7 +37,7 @@ Procedimento mostrarCatalogo()
   escreval("A - Pen Drive")
   escreval("Valor: R$: 49.99")
 
-  escreval("B - AÁaÌ")
+  escreval("B - A√ßa√≠")
   escreval("Valor: R$: 19.99")
 
   escreval("C - KitKat")
@@ -76,7 +76,7 @@ senao
 
       senao
 
-      escreval("OpÁ„o Inv·lida! Tente novamente.")
+      escreval("Op√ß√£o Inv√°lida! Tente novamente.")
 
       fimse
     fimse
