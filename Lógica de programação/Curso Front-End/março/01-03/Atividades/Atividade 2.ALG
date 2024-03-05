@@ -1,0 +1,27 @@
+Algoritmo "Atividade 2"
+// Disciplina: [Linguagem e Lógica de Programação]
+// Professor: Victor Santos Rohod
+// Descrição: Aqui você descreve o que o programa faz! (função)
+// Autor(a): Luiz Henrique Maciel de Oliveira
+// Data atual: 01/03/2024
+Var
+
+PrimNum: real
+contagem , NNegativo: inteiro
+
+Inicio
+
+escreval("Bom dia, digite 10 números e diremos quantos são negativos:")
+
+repita
+contagem <- contagem + 1
+leia(PrimNum)
+
+  se PrimNum < 0 entao
+  NNegativo <- NNegativo + 1
+  fimse
+
+ate contagem >= 10
+  escreval("Quantidade de números negativos digitados: " , NNegativo)
+
+Fimalgoritmo

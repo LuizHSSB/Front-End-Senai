@@ -1,0 +1,12 @@
+Navegadores são responsáveis por levar você a qualquer lugar da Surface Web. São eles que te guiam pelos diversos sites que estão hospedados na Internet.
+
+Os navegadores possuem 4 ferramentas essenciais para o seu funcionamento, são elas:
+
+1 - Barra de endereço: A barra de endereço é responsável por encontrar o site que você está procurando. É nele que você insere a URL (Uniform Resource Locator) ou busca por palavras-chave para que ele procure por sites e te mostre os resultados
+compatíveis com a sua busca;
+
+2 - Guia do Navegador: Também popularmente conhecida como "aba do navegador" esta é uma ferramenta que te possibilita abrir várias páginas da web em uma mesma janela, dando mais comodidade e até mesmo poupando recursos da máquina do usuário;
+
+3 - Perfil do Usuário: Esta ferramenta é responsável por caracterizar quem utiliza o navegador e também se prontifica a trocar informações entre aparelhos que os aparelhos conectados a conta do usuário;  
+
+4 - Opções de controle: As opções de controle permitem ao usuário gerenciar as funcionalidades do navegador, como histórico, downloads, extensões e etc; 

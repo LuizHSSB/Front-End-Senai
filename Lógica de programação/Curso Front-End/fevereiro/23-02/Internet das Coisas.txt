@@ -1,0 +1,3 @@
+Internet das coisas ou IOT pode-se definir como uma tecnologia ou até mesmo um ecossistema que visa conectar objetos físicos do nosso cotidiano a Internet e fazê-los "conversar" entre si a fim de aprimorar não só a experiência que o usuário
+tem com aquele objeto, mas também aprimorar a vida do usuário, dando à ele mais qualidade de vida, conforto e até mesmo tornando suas tarefas do dia a dia mais automatizadas, poupando bastante tempo.
+
