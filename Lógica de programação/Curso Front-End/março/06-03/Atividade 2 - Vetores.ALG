@@ -31,6 +31,8 @@ leia(Numeros[contador])
 
 fimpara
 
+limpatela
+
 contador <- 10
 
 enquanto contador >= 1 faca
