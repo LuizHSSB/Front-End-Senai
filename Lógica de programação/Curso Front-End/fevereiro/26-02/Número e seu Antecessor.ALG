@@ -6,18 +6,16 @@ Algoritmo "Atividade Antecessor"
 
 Var
 
-numero1 , operacao : real
+n1 : real
 
 Inicio
 
 escreval("Bom dia, digite um número e lhe diremos qual é o seu antecessor.")
 
-leia(numero1)
+leia(n1)
 
-operacao <- (numero1 - 1)
+escreval ("Este é o seu número:" , n1)
 
-escreval ("Este é o seu número:" , numero1)
-
-escreval("Este é o seu antecessor:" , operacao)
+escreval("Este é o antecessor do número escolhido:" , n1 - 1)
 
 Fimalgoritmo

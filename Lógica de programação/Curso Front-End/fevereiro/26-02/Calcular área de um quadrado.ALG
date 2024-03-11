@@ -11,23 +11,14 @@ msg : caractere
 Inicio
 
 escreval ("Bom dia!")
-escreval ("Primeiro me diga qual é a base do quadrado?")
+escreval ("Me diga qual é a base do retângulo?")
 
 leia(base)
 
-escreval ("Agora me diga qual a altura do quadrado?:")
+escreval ("Agora me diga qual a altura do retângulo?:")
 
 leia(altura)
 
-escreval ("A área total do quadrado baseado nos valores da base e da altura fornecidos é igual a:")
-
-operacao <- (base * altura)
-
-escreva(operacao)
-
-//perguntar ao professor quanto as unidades de medida
-//se eu quisesse colocar a base em metros e a altura em centimetros, como eu faria o computador reconhecer isso?
-
-
+escreva ("A área total do retângulo é de:" , base * altura)
 
 Fimalgoritmo
