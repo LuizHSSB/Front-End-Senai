@@ -5,8 +5,7 @@ Algoritmo "Faixa Etária para Inscrição nas aulas de natação"
 // Data atual: 27/02/2024
 Var
 
-InfantilA , InfantilB , JuvenilA , JuvenilB , Adultos : inteiro
-IdadeAluno: real
+InfantilA , InfantilB , JuvenilA , JuvenilB , Adultos , IdadeAluno : inteiro
 
 Inicio
 

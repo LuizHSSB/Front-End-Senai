@@ -18,6 +18,7 @@ escreval("Agora escreva o segundo número:")
 
 leia(SegundoNumero)
 
+limpatela
 se (PrimeiroNumero = SegundoNumero) entao
 escreval ("O primeiro número escolhido foi" , PrimeiroNumero , " e o segundo foi" , SegundoNumero , " logo eles são iguais")
 

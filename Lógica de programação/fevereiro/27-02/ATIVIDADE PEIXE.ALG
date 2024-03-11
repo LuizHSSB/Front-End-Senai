@@ -9,7 +9,7 @@ Excesso , Multa , PesoPeixes : real
 
 Inicio
 
-escreval("Bom dia, digite a gramatura em quilogramas dos peixes tragos hoje:")
+escreval("Bom dia, digite o peso em quilogramas dos peixes tragos hoje:")
 
 leia(PesoPeixes)
 
@@ -17,7 +17,7 @@ se (PesoPeixes > 50) entao
 Excesso <- (PesoPeixes - 50)
 Multa <- (Excesso * 4)
 
-escreval("O Limite para pesca em São Paulo é de 50kg de peixe, você ultrapassou o limite em" , Excesso , " quilos, então você deverá pagar uma multa de 4 reais por quilo excedente, que será um total de:" , Multa , " reais")
+escreval("O limite para pesca em São Paulo é de 50kg de peixe, você ultrapassou o limite em" , Excesso , " quilo(s), então você deverá pagar uma multa de 4 reais por quilo excedente, que será um total de:" , Multa , " reais")
 
 senao
 

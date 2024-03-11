@@ -23,23 +23,26 @@ escreva("Time B:")
 
 leia(NomeB)
 
-escreva("agora diga quantos gols o " , NomeA , " fez: ")
+escreva("Agora diga quantos gols o " , NomeA , " fez: ")
 
 leia(GolsA)
 
-escreva("e quantos gols o " , NomeB, " fez? ")
+escreva("E quantos gols o " , NomeB, " fez? ")
 
 leia(GolsB)
 
 se (GolsA = GolsB) entao
+limpatela
 escreval("O jogo acabou empatado :(")
 
 senao
 
   se (GolsA > GolsB) entao
+  limpatela
   escreval(NomeA , " ganhou!!!")
   
   senao
+  limpatela
     escreval(NomeB , " ganhou!!!")
     fimse
   fimse
