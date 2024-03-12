@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS INTRODUÇÃO</title>
+    <style>
+    
+        /* elemento = seletor por tag */
+        p {
+          color: #663399;
+          text-align: center ;  
+        }
+        
+        body {
+         background-color: black;
+         color:white   
+        }
+
+        /* arrendondar a imagem */
+        img {
+            border-radius: 60px; 
+            margin-left: 800px           
+        }
+        
+        /* #elemento = seletor por id (elemento único) */
+        #pRed {
+            background-color: yellow;
+        }
+        
+        /* .elemento = seletor via classe (agrupamento) */
+        .mudaFonte{
+            font-size: 18pt;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        } 
+        /* Ordem de prioridade: 1º - ID, 2º - Class, 3º - Tag */
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">Aula sobre CSS</h1>
+    <p class="mudaFonte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio perferendis, animi nihil iusto assumenda explicabo rerum amet ipsam eos non vel eius labore alias quod eveniet voluptatibus corporis dolor.</p>
+    <p id="pRed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio perferendis, animi nihil iusto assumenda explicabo rerum amet ipsam eos non vel eius labore alias quod eveniet voluptatibus corporis dolor.</p>
+    <p class="mudaFonte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam distinctio perferendis, animi nihil iusto assumenda explicabo rerum amet ipsam eos non vel eius labore alias quod eveniet voluptatibus corporis dolor.</p>
+    <img src="omega.png" alt="Ômega God of War" width="300px">
+</body>
+</html>
