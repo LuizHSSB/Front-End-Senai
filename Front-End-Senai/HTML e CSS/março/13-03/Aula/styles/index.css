@@ -1,0 +1,64 @@
+/* asterisco muda todo o texto do html (seleciona tudo) */
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    /* background-image: url("/Aula/images/pessoa-jogando-basquete.jpg"); */
+    color: rgb(255, 255, 255);
+}
+
+#banner{
+    width:80%;
+}
+
+#cabecalho{
+    text-align: center;
+    background-color: aqua;
+    /* padding é margem dentro do elemento */
+    padding: 20px;
+    /* 1 valor se refere a todos os lados */
+    /* 2 valores se referem ao eixo x(horizontal) e y(vertical), respectivamente */
+    /* 4 valores se referem a todos os lados (ordem de leitura da margem) = cima, direita, baixo, esquerda. Sentido horário. */
+    margin: 0px 0px 10px 0px;
+}
+
+#links{
+    background-color: rgb(0, 255, 0);
+    padding: 10px;
+    text-align: center;
+    color: red;
+}
+
+#artigo{
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    /* border-radius = arredondamento da imagem */
+    border-radius: 50px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#artigo2{
+    width: 50%;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
+    /* border-radius = arredondamento da imagem */
+    border-radius: 50px;
+    text-align: center;
+    margin: 40px auto;
+}
+
+#tifut{
+    /* font-size: 30; não tá funfando*/
+    margin: 0px 10px 10px 10px;
+}
+
+#tibask{
+    /* font-size: 30; não tá funfando*/
+    margin: 0px 10px 10px 10px;
+}
