@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Gameboy;
+    src: url(/fonts/early_gameboy/Early\ GameBoy.ttf);
+}
+
+@keyframes mudaCor {
+    0%{
+        color: black;
+    }
+    100%{
+        color: white;
+    }
+}
+
+:root{
+    --corPrimaria : rgb(255, 0, 0) ;
+    --corSecundaria : rgb(56, 56, 56) ;
+    --corTerciaria: rgb(0, 168, 0);
+    --white : rgb(255, 255, 255) ;
+    --black : rgb(0, 0, 0) ;
+    --fontePrimaria : 'Trebuchet MS' ;
+    --fonteSecundaria : Gameboy ;
+}
+    
+*{
+    margin: 0% ;
+    padding: 0% ;
+    font-family: var(--fontePrimaria);
+}
+
+#page{
+    width: 100%;
+    height: 100vh; /* <-viewport porque altura é indeterminada */
+    background-color: var(--corSecundaria);
+    display: flex; /* <- flexibiliza a tela */ 
+    justify-content: center; /* <- alinha ao centro horizontalmente */
+    align-items: center; /* <- alinha ao centro verticalmente */
+}
+
+main{
+    width: 70%;
+    height: 80%;
+    background-color: var(--white);
+    border-radius: 15px;
+    display: flex;
+    overflow: hidden; /*<- esconde tudo que está fora dos limites da divisão (pontas são quadradas, agora passam a ser redondas, de acordo com o display "pai")*/
+}
+
+#efeito , #form { 
+    width: 50%; /*<- 50% para o efeito e 50% para o formulário*/
+    height: 100%;
+    background-color: var(--corPrimaria);
+}
+
+#efeito{
+    width: 100%;
+    height: 100%;
+    background-image: url(/img/The\ Grimm\ Troupe.png);
+    background-size: cover;
+    
+}
+
+#form{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,0,0);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    padding: 0px 0px 0px 10px;
+}
+
+#banner{
+    width: 100%;
+    height: 100%;
+    background: rgb(255,0,0);
+    background: linear-gradient(270deg, rgba(255,0,0,0.4150035014005602) 0%, rgba(0,0,0,1) 100%);
+}
+
+h3{
+    animation-name: mudaCor; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
