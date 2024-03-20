@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/ico/chave-inteligente.png" type="image/x-icon">
     <link rel="stylesheet" href="styles/geral.css">
     <link rel="stylesheet" href="styles/index.css">
-    <link rel="shortcut icon" href="img/ico/chave-inteligente.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> <!--Biblioteca de animações-->
     <title>Login</title>
 </head>
 <body>
@@ -16,22 +17,25 @@
                 <div id="banner"></div>
            </div>
            <div id="form">
-               <h3>Cadastre-se</h3>
-               <form action="#" method="post">
+               <h2 class="animate__animated animate__pulse">Cadastre-se</h2>
+               <form action="/pages/home.html" method="post">
                    <br> <!-- nome -->
-                   <label for="UserName">Escreva seu nome:</label>
+                   <label for="UserName">Escreva seu nome:</label> <br>
                     <input type="text" id="Name" placeholder="Name" minlength="3" required> <!-- required = envio obrigatório -->
                    <br><br> <!-- email -->
-                   <label for="email">Escreva seu e-mail:</label>
+                   <label for="email">Escreva seu e-mail:</label> <br>
                    <input type="email" id="email" placeholder="example@mail.com" required> <!-- required = envio obrigatório -->
                    <br><br> <!-- senha -->
-                   <label for="password">Digite sua senha:</label>
+                   <label for="password">Digite sua senha:</label> <br>
                    <input type="password" id="password" placeholder="Password" minlength="6" maxlength="24" required> <!-- required = envio obrigatório -->
                    <br><br>
-                   <label for="dataNascimento">Coloque a sua data de nascimento:</label>
+                   <label for="dataNascimento">Data de nascimento:</label> <br>
                    <input type="date" id="dataNascimento">
                     <br><br>
                    <button type="submit">Sign In</button>
+                   <button type="reset" >Reset</button>
+
+                   <a id="link" href="/pages/login.html">Já possui uma conta? Faça o seu login!</a>
 
                    <!-- outros inputs
                     <input type="file">
@@ -48,7 +52,7 @@
                     <br><br>
                     <textarea name="" id="" cols="30" rows="10"></textarea> -->
 
-
+                    
                </form>
            </div>
        </main>
