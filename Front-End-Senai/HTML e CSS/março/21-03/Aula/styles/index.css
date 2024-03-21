@@ -1,0 +1,114 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+:root{
+    --corPrimaria : rgb(0, 183, 255);
+    --corSecundaria : rgb(153, 0, 255);
+    --preto : black;
+    --branco : rgba(241, 241, 241, 0.521);
+}
+
+h1{
+    color:black;
+    
+}
+
+header , footer {
+    width: 100%;
+    height: 50px;
+    background-color: var(--corSecundaria);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header{ /*forçando o header a ficar no fim da tela */
+    position: fixed;
+    top: 0px;
+}
+
+#tabelaExcel {
+    width: 95%;
+    margin: 20px;
+    border-collapse: collapse; /*Juntar as bordas de cada célula da tabela*/
+}
+
+#tabelaProdutos {
+    width: 95%;
+    margin: 20px;
+    border-collapse: collapse; /*Juntar as bordas de cada célula da tabela*/
+}
+
+th , td {
+    padding: 5px;
+    border: 1px solid var(--preto);
+    user-select: none;
+}
+
+th{
+    background-color: var(--corPrimaria);
+}
+
+td{
+    background-color: var(--branco);
+    color: black;
+}
+
+th:hover, td:hover{ /* hover = passou o mouse faça */
+    background-color: var(--corSecundaria);
+    cursor: pointer;
+} 
+
+td:active{ /*active = clicou faça*/
+    border: 1px solid var(--branco);
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--branco);
+}
+
+input:focus{ /* focar no objeto ao clicar */
+    transition: 1.3s ; /* transição = entre focus e o normal (mais sutil)*/
+    background-color: rgb(223, 223, 223);    
+    color: black);
+    border-radius: 0%;
+}
+
+#Pseudoclasse{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1%;
+}
+
+th:empty{ /*alterando a quina superior esquerda*/
+    background-color: transparent;
+    border: none;
+    cursor: auto;
+}
+
+#apenasScroll{
+    width: 1px;
+    height: 1000px;
+}
+
+thead{ /*fixando o thead do topo do website */
+    position: sticky;
+    top: 49px ;
+}
+
+#apenasScroll{
+    width: 1px;
+    height: 1000px;
+}
+
+main{
+    padding-top: 30px;
+}
