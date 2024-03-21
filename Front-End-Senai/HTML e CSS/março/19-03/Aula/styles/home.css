@@ -2,15 +2,21 @@
     width: 100%;
     height: 100vh; /* <-viewport porque altura é indeterminada */
     background-image: url();
-    /* background-color: black; */
+    background: rgb(255,255,255);
+background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,86,255,0.5) 89%);
     display: flex; /* <- flexibiliza a tela */ 
     justify-content: center; /* <- alinha ao centro horizontalmente */
     align-items: center; /* <- alinha ao centro verticalmente */
 }
 
-#cape {
+img {
     width: 100%;
     height: 100%;
-    background-image: url(/img/hollow-cape.jpg);
+}
 
+h1{
+    color: red;
+    margin-left: 21.5%;
+    position: absolute;
+    top: 49%
 }
