@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/index.css">
+    <!-- <link rel="stylesheet" href="styles/indexmobile.css" media="screen and (max-width : 910px)"> vai acontecer a o que o link ordena caso a tela fique > 910px -->
+    <!-- <link rel="stylesheet" href="styles/indexmobile.css" media="screen and (orientation : landscape) ou orientation: portrait">  landscape = paisagem e portrait = retrato -->
+    <link rel="shortcut icon" href="img/logo/netflix_logo_icon.svg" type="image/x-icon">
+    <title>Netflix Brasil</title>
+</head>
+<body>
+    <header>
+        <!-- header lado esquerdo -->
+        <aside class="menuPc">
+            <img id="logo" src="img/logo/Netflix_2015_logo.svg" alt="">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Séries TV</a></li>
+                <li><a href="#">Em Alta</a></li>
+                <li><a href="#">Terror</a></li>
+                <li><a href="#">Suspense</a></li>
+                <li><a href="#">Top da Semana</a></li>
+            </ul>
+        </nav>
+        </aside>
+        <!-- header lado direito -->
+        <aside class="menuPc">
+            <img src="img/interface icons/search.svg" alt="">
+            <p>Username</p>
+            <img id="userlogo" src="img/icone_usuario/the_boss_baby.png" alt="">
+            <img src="img/interface icons/arrow_drop_down.svg" alt="">
+        </aside>
+        <!-- header lado esquerdo mobile -->
+        <aside class="menuMobile">
+            <img src="img/logo/netflix_logo_icon.svg" alt="logo">
+        </aside>
+        <!-- header lado direito mobile -->
+        <aside class="menuMobile">
+            <img src="img/interface icons/menu.svg" alt="">
+        </aside>
+    </header>
+    <main>
+        <!--Imagens responsivas-->
+        <picture>
+            <source media="(max-width:800px)" srcset="img/icone_usuario/the_boss_baby.png">
+            <source media="(max-width:1000px)" srcset="img/logo/Netflix_2015_logo.svg">
+            <img src="../../../../../../Hollow-Knight-Map/img/The Grimm Troupe.png" alt=""> <!--padrão caso nenhuma condição de cima seja verdadeira-->
+        </picture>
+    </main>
+</body>
+</html>

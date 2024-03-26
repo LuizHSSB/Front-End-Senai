@@ -1,0 +1,77 @@
+@font-face {
+    font-family: NetflixBold;
+    src: url(../layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Bold.otf);
+}
+
+@font-face {
+    font-family: NetflixRegular;
+    src: url(../layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Regular.otf);
+}
+
+@font-face {
+    font-family: NetflixLight;
+    src: url(../layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Light.otf);
+}
+
+@font-face {
+    font-family: NetflixMedium;
+    src: url(../layout/arquivosAuxiliares/Netflix/fonte/netflix-sans-font/NetflixSans-Medium.otf);
+}
+
+:root{
+    --NetflixRed : #AF0000;
+    --NetflixRedd : #831010;
+    --NetflixGrey : #564D4D;
+    --Black : #000;
+    --White : #fff;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+/* header */
+
+body{
+    background-color: var(--Black);
+    color: var(--White);
+}
+
+header{
+    width: 100%;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside{
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+}
+
+aside img{
+    height: 35px;
+    margin: 5px;
+}
+
+#logo{
+    height: 60px;
+}
+
+#userlogo{
+    height: 70px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: var(--White);
+}
+

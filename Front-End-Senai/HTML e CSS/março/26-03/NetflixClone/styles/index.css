@@ -1,0 +1,21 @@
+.menuPc{
+    display: flex;
+
+}
+
+.menuMobile{
+    display: none;
+}
+
+@media screen and (max-width : 910px){
+
+    .menuPc{
+        display: none;
+    
+    }
+    
+    .menuMobile{
+        display: flex;
+    }
+}
+
