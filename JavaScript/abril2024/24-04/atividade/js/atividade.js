@@ -38,11 +38,3 @@ function Atividade1(){
             }
     }
 }
-
-
-
-
-
-
-
-
