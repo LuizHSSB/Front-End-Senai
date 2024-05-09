@@ -1,3 +1,5 @@
+//Materia abaixo == 
+
 function replaceEcma(){
 
 };
@@ -35,5 +37,16 @@ function objectEntries(){
 };
 
 function Promises(){
+    var promessa = new Promise((resolve,reject) =>{
+        let usuario = "ADM";
 
+        if(usuario == "ADM"){
+            resolve("O usuário é administrador");
+        }else{
+            reject("O usuário não é administrador");
+        };
+    });
+    promessa.then((resultado) => {
+        console.log(resultado)
+    });
 };
