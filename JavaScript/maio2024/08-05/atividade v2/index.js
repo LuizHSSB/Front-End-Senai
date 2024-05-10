@@ -28,7 +28,7 @@ function listarEstatisticas(){
     estatisticas.innerHTML = `
     <p>😁Nome : ${link.nome}</p>
     <p>❤️Vida : ${link.vida}</p>
-    <p>⚔️Dano : ${link.dano}</p>
+    <p>⚔️Dano : ${link.dano} (Chance de perder dano ao atacar)</p>
     <p>⭐Level: ${link.nivel}</p>
     <p>🎒Items : ${link.items}</p>
     <button id="atacar" onclick="atacar(${link.dano})">💣Atacar</button>
@@ -43,8 +43,8 @@ function listarEstatisticas(){
 listarEstatisticas()
 
 function atacar(dano){
-    let chanceDeDesgaste = numRandom(0,8)
-    if(chanceDeDesgaste == 3){
+    let chanceDeDesgaste = numRandom(0,4)
+    if(chanceDeDesgaste == 1){
         link.dano = link.dano - 1;
         alert(`Você causou ${dano} de dano, mas sua espada sofreu um desgaste. Isso lhe custou 1 um dano. Dano atual ${dano-1}.`)
         listarEstatisticas()
