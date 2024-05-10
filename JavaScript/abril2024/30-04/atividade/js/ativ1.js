@@ -39,7 +39,7 @@ class Carro {
         `
     }
 }
-var carro1 = new Carro("BMW","i8","2016/17","Sky-Blue",250,0);
+var carro1 = new Carro("BMW","i8","2016/17","Red",250,0);
 
 function acelerar(){
     let acel = Number(document.querySelector("#inputAcelerar").value);
