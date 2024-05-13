@@ -27,14 +27,27 @@ document.querySelector("#btnTema").addEventListener("click", function(){
     
     //para trocar o tema, se eu tivesse usado classe "temaClaro" e "temaEscuro"
 
-    // let corpo = document.querySelector("body")
+    let corpo = document.querySelector("body")
 
-    // if(corpo.classList.contains("class1")){
-    //     corpo.classList.replace("class1","class2")
-    // }else{
-    //     corpo.classList.replace("class2","class1")
-    // }
-
-
-    
+    if(corpo.classList.contains("temaClaro")){
+         corpo.classList.replace("temaClaro","temaEscuro")
+    //    $("body").attr("data-bs-theme","dark") --- mudar através do databstheme
+    }else{
+         corpo.classList.replace("temaEscuro","temaClaro")
+    //    $("body").attr("data-bs-theme","light") --- mudar através do databstheme
+    }
 })
+
+// revisão
+
+$("#abrir").on("click", function(){
+    $(".caixa").slideDown(1500);
+});
+
+$("#fechar").on("click", function(){
+    $(".caixa").slideUp(1500);
+});
+
+$("#animar").on("click", function(){
+    $(".caixa").animate({width : "500px",height : "500px"});
+});
